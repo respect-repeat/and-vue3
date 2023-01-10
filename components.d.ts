@@ -6,24 +6,24 @@ import '@vue/runtime-core'
 export {}
 
 declare module '@vue/runtime-core' {
-    export interface GlobalComponents {
-        ABreadcrumb: typeof import('ant-design-vue/es')['Breadcrumb']
-        ABreadcrumbItem: typeof import('ant-design-vue/es')['BreadcrumbItem']
-        ALayout: typeof import('ant-design-vue/es')['Layout']
-        ALayoutContent: typeof import('ant-design-vue/es')['LayoutContent']
-        ALayoutFooter: typeof import('ant-design-vue/es')['LayoutFooter']
-        ALayoutHeader: typeof import('ant-design-vue/es')['LayoutHeader']
-        ALayoutSider: typeof import('ant-design-vue/es')['LayoutSider']
-        AMenu: typeof import('ant-design-vue/es')['Menu']
-        AMenuItem: typeof import('ant-design-vue/es')['MenuItem']
-        ASubMenu: typeof import('ant-design-vue/es')['SubMenu']
-        BreadCrumb: typeof import('./src/components/components/BreadCrumb.vue')['default']
-        MainContainer: typeof import('./src/components/components/MainContainer.vue')['default']
-        MainFooter: typeof import('./src/components/components/MainFooter.vue')['default']
-        MainHeader: typeof import('./src/components/components/MainHeader.vue')['default']
-        MainLayout: typeof import('./src/components/MainLayout.vue')['default']
-        RouterLink: typeof import('vue-router')['RouterLink']
-        RouterView: typeof import('vue-router')['RouterView']
-        SideBar: typeof import('./src/components/components/SideBar.vue')['default']
-    }
+  export interface GlobalComponents {
+    ABreadcrumb: typeof import('ant-design-vue/es')['Breadcrumb']
+    ABreadcrumbItem: typeof import('ant-design-vue/es')['BreadcrumbItem']
+    ALayout: typeof import('ant-design-vue/es')['Layout']
+    ALayoutContent: typeof import('ant-design-vue/es')['LayoutContent']
+    ALayoutFooter: typeof import('ant-design-vue/es')['LayoutFooter']
+    ALayoutHeader: typeof import('ant-design-vue/es')['LayoutHeader']
+    ALayoutSider: typeof import('ant-design-vue/es')['LayoutSider']
+    AMenu: typeof import('ant-design-vue/es')['Menu']
+    AMenuItem: typeof import('ant-design-vue/es')['MenuItem']
+    ASubMenu: typeof import('ant-design-vue/es')['SubMenu']
+    BreadCrumb: typeof import('./src/components/components/BreadCrumb.vue')['default']
+    MainContainer: typeof import('./src/components/components/MainContainer.vue')['default']
+    MainFooter: typeof import('./src/components/components/MainFooter.vue')['default']
+    MainHeader: typeof import('./src/components/components/MainHeader.vue')['default']
+    MainLayout: typeof import('./src/components/MainLayout.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
+    SideBar: typeof import('./src/components/components/SideBar.vue')['default']
+  }
 }

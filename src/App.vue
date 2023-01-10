@@ -2,6 +2,6 @@
     <Layout />
 </template>
 <script setup lang="ts">
-import Layout from './components/MainLayout.vue'
+import Layout from '@/Layout/MainLayout.vue'
 </script>
 <style></style>
