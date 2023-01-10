@@ -10,7 +10,7 @@
     </a-layout-content>
 </template>
 <script setup lang="ts">
-import BreadCrumb from './Breadcrumb.vue'
+import BreadCrumb from './BreadCrumb.vue'
 import SideBar from './SideBar.vue'
 </script>
 <style></style>
