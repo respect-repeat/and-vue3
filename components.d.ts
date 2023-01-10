@@ -17,7 +17,15 @@ declare module '@vue/runtime-core' {
     AMenu: typeof import('ant-design-vue/es')['Menu']
     AMenuItem: typeof import('ant-design-vue/es')['MenuItem']
     ASubMenu: typeof import('ant-design-vue/es')['SubMenu']
+    Breadcrumb: typeof import('./src/components/components/Breadcrumb.vue')['default']
+    BreadCrumb: typeof import('./src/components/components/BreadCrumb.vue')['default']
     Layout: typeof import('./src/components/Layout.vue')['default']
+    MainContainer: typeof import('./src/components/components/MainContainer.vue')['default']
+    MainFooter: typeof import('./src/components/components/MainFooter.vue')['default']
+    MainHeader: typeof import('./src/components/components/MainHeader.vue')['default']
     MainLayout: typeof import('./src/components/MainLayout.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
+    SideBar: typeof import('./src/components/components/SideBar.vue')['default']
   }
 }
